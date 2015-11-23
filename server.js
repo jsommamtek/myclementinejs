@@ -14,7 +14,7 @@ mongo.connect(process.env.MONGOLAB_URI, function (err, db) {
    if (err) {
       throw new Error('Database failed to connect!');
    } else {
-      console.log('MongoDB successfully connected on port 27017.');
+      console.log('MongoDB successfully connected.');
    }
 
    app.use('/public', express.static(process.cwd() + '/public'));
@@ -29,8 +29,8 @@ mongo.connect(process.env.MONGOLAB_URI, function (err, db) {
 	});
 	*/
 
-   app.listen(5000, function () {
-      console.log('Listening on port 5000...');
+   app.listen(process.env.PORT, function () {
+      console.log('Listening on port ' + process.env.PORT + '...');
    });
 
 });
