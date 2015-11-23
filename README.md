@@ -1,6 +1,8 @@
 # my clementine.js boilerplate
 This is my "built from scratch" version of clementine.js boilerplate tutorials including Angular refactoring and passport Node.js authentication.
 
+This boilerplate was originally created by Blake Johnston and you can review his repo here: https://github.com/johnstonbl01/clementinejs
+
 - The baseline javascript version is tagged as v1.0.
 
 - The Angular refactored version is tagged as v2.0.
