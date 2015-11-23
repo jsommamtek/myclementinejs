@@ -9,5 +9,5 @@ You can download each of these as a separate release in releases.
 
 The runnng app can be accessed at the url below which is hosted at Heroku.
 
-"http://..."
+https://myclementine-mtek.herokuapp.com/
 
