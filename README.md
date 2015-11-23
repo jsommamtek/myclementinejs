@@ -15,4 +15,5 @@ Couple of Notes:
 
 - This build depends on Heroku local (cli-toolbelt) mode to load up the .env file with the db url and the node port and run locally.  Assumes you have mongo installed and running locally as well.
 - You can replace the node process.env.* references in the server.js file with local vars to get up and running in a local environment without the Heroku cli.
+- The url above is running on the FREE Heroku sandbox and will sleep from inactivity.  If there is a delay when you click the url it is probably becuase the dyno needs to startup.
 
