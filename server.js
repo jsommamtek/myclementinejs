@@ -6,7 +6,10 @@ var express = require('express'),
 
 var app = express();
 
-mongo.connect('mongodb://localhost:27017/clementinejs', function (err, db) {
+//console.log("process.env.MONGOLAB_URI: " + process.env.MONGOLAB_URI);
+
+//mongo.connect('mongodb://localhost:27017/clementinejs', function (err, db) {
+mongo.connect(process.env.MONGOLAB_URI, function (err, db) {
 
    if (err) {
       throw new Error('Database failed to connect!');
